@@ -1,0 +1,28 @@
+{
+  "name": "calculator_app",
+  "description": "\"# calculator_app\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass-watch": "sass --watch src/styles.scss public/styles/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawid-majewski-pl/calculator_app.git"
+  },
+  "keywords": [
+    "calculator",
+    "calculation",
+    "app"
+  ],
+  "author": "Dawid Majewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawid-majewski-pl/calculator_app/issues"
+  },
+  "homepage": "https://github.com/dawid-majewski-pl/calculator_app#readme",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}
