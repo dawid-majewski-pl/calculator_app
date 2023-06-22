@@ -68,15 +68,16 @@
         gap: 8px;
     }
     &__button {
+        margin: 0;
+        background: none;
+        border: none;
+        color: white;
         border-radius: 16px;
         width: calc(100% - 4px);
         height: 40px;
         background-color: rgba(105, 150, 187, 0.5);
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: .2s;
+        cursor: pointer;
+        transition: .3s;
         &:hover {
             background-color: rgb(125, 218, 255);
         }
@@ -89,8 +90,5 @@
         &--color-b {
             background-color: rgb(52, 113, 194);
         }
-    }
-    &__symbol {
-        margin: 0;
     }
 }

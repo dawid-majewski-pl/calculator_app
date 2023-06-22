@@ -65,15 +65,16 @@
   gap: 8px;
 }
 .calculator__button {
+  margin: 0;
+  background: none;
+  border: none;
+  color: white;
   border-radius: 16px;
   width: calc(100% - 4px);
   height: 40px;
   background-color: rgba(105, 150, 187, 0.5);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.2s;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .calculator__button:hover {
   background-color: rgb(125, 218, 255);
@@ -86,9 +87,6 @@
 }
 .calculator__button--color-b {
   background-color: rgb(52, 113, 194);
-}
-.calculator__symbol {
-  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
