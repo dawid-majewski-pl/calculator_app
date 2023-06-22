@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0;
+}
 
 .app {
     width: 100vw;
@@ -32,10 +35,6 @@
 
 .calculator {
     display: grid;
-    grid-template-areas:
-    calculator__window-main
-    calculator__window-additional
-    calculator__button-area;
     background-color: rgba(0, 0, 0, 0.76);
     color: white;
     width: 240px;
@@ -45,22 +44,25 @@
     height: fit-content;
     gap:  16px;
     &__window-main {
-        width: 100%;
-        grid-area: "calculator__window-main";
+
         border-radius: 16px;
-        height:50px;
+        height:fit;
         background-color: rgba(105, 150, 187, 0.5);
+        overflow: hidden;
     }
     &__window-additional {
         width: 100%;
-        grid-area: "calculator__window-additional";
         border-radius: 16px;
         height:50px;
         background-color: rgba(105, 150, 187, 0.5);
     }
+    &__content {
+        padding: 16px;
+        margin: 0;
+        text-align: right;
+    }
     &__button-area {
         width: 100%;
-        grid-area: "calculator__button-area";
         display: grid;
         justify-items: center;
         align-items: center;

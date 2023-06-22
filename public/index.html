@@ -13,32 +13,33 @@
             <h1 class="container__header">Calculator App</h1>
             <p class="container__text">Do your calculations</p>
             <section class="calculator">
-                <div class="calculator__window-main"></div>
-                <div class="calculator__window-additional"></div>
+                <div class="calculator__window-main"><p class="calculator__content" id="result"></p></div>
+                <div class="calculator__window-additional"><p class="calculator__content" id="calculation"></p></div>
                 <div class="calculator__button-area">
-                    <button type="button" class="calculator__button calculator__button--color-a">DEL</button>
-                    <button type="button" class="calculator__button calculator__button--color-a">CE</button>
-                    <button type="button" class="calculator__button calculator__button--color-b">/</button>
-                    <button type="button" class="calculator__button calculator__button--color-b">^</button>
-                    <button type="button" class="calculator__button">7</button>
-                    <button type="button" class="calculator__button">8</button>
-                    <button type="button" class="calculator__button">9</button>
-                    <button type="button" class="calculator__button calculator__button--color-b">*</button>
-                    <button type="button" class="calculator__button">4</button>
-                    <button type="button" class="calculator__button">5</button>
-                    <button type="button" class="calculator__button">6</button>
-                    <button type="button" class="calculator__button calculator__button--color-b">-</button>
-                    <button type="button" class="calculator__button">1</button>
-                    <button type="button" class="calculator__button">2</button>
-                    <button type="button" class="calculator__button">3</button>
-                    <button type="button" class="calculator__button calculator__button--color-b">+</button>
-                    <button type="button" class="calculator__button">00</button>
-                    <button type="button" class="calculator__button">0</button>
-                    <button type="button" class="calculator__button">.</button>
-                    <button type="button" class="calculator__button calculator__button--color-b">=</button>
+                    <button type="button" class="calculator__button calculator__button--color-a" id="btn-del">DEL</button>
+                    <button type="button" class="calculator__button calculator__button--color-a" id="btn-ce">CE</button>
+                    <button type="button" class="calculator__button calculator__button--color-b" id="btn-divide">/</button>
+                    <button type="button" class="calculator__button calculator__button--color-b" id="btn-exponentiation">^</button>
+                    <button type="button" class="calculator__button" id="btn-7">7</button>
+                    <button type="button" class="calculator__button" id="btn-8">8</button>
+                    <button type="button" class="calculator__button" id="btn-9">9</button>
+                    <button type="button" class="calculator__button calculator__button--color-b" id="btn-multiply">*</button>
+                    <button type="button" class="calculator__button" id="btn-4">4</button>
+                    <button type="button" class="calculator__button" id="btn-5">5</button>
+                    <button type="button" class="calculator__button" id="btn-6">6</button>
+                    <button type="button" class="calculator__button calculator__button--color-b" id="btn-subtract">-</button>
+                    <button type="button" class="calculator__button" id="btn-1">1</button>
+                    <button type="button" class="calculator__button" id="btn-2">2</button>
+                    <button type="button" class="calculator__button" id="btn-3">3</button>
+                    <button type="button" class="calculator__button calculator__button--color-b" id="btn-add">+</button>
+                    <button type="button" class="calculator__button" id="btn-00">00</button>
+                    <button type="button" class="calculator__button" id="btn-0">0</button>
+                    <button type="button" class="calculator__button" id="btn-dot">.</button>
+                    <button type="button" class="calculator__button calculator__button--color-b" id="btn-equals">=</button>
                 </div>
             </section>
         </section>
     </main>
+    <script src="script/main.js"></script>
 </body>
 </html>
