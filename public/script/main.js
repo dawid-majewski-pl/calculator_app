@@ -20,7 +20,7 @@ const btn00 = document.querySelector('#btn-00');
 const btnDot = document.querySelector('#btn-dot');
 
 const btnDel = document.querySelector('#btn-del');
-const btnCe = document.querySelector('#btn-ce');
+const btnBs = document.querySelector('#btn-bs');
 
 const result = document.querySelector('#result');
 const calculation = document.querySelector('#calculation');
@@ -76,7 +76,9 @@ btnDivide.addEventListener('click', function() {
 btnDel.addEventListener('click', function() {
     outputResult('','');
 });
-
+btnBs.addEventListener('click', function() {
+    outputResult(currentResult, calculation.textContent.slice(0, -1));
+});
 function outputResult(displayResult, text) {
     result.textContent = displayResult;
     calculation.textContent = text;
