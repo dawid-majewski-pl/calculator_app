@@ -45,16 +45,11 @@ body {
   gap: 16px;
 }
 .calculator__window-main {
-  border-radius: 16px;
-  height: fit;
-  background-color: rgba(105, 150, 187, 0.5);
-  overflow: hidden;
-}
-.calculator__window-additional {
   width: 100%;
   border-radius: 16px;
   height: 50px;
   background-color: rgba(105, 150, 187, 0.5);
+  overflow: hidden;
 }
 .calculator__content {
   padding: 16px;

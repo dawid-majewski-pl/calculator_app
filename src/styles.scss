@@ -44,17 +44,11 @@ body {
     height: fit-content;
     gap:  16px;
     &__window-main {
-
-        border-radius: 16px;
-        height:fit;
-        background-color: rgba(105, 150, 187, 0.5);
-        overflow: hidden;
-    }
-    &__window-additional {
         width: 100%;
         border-radius: 16px;
         height:50px;
         background-color: rgba(105, 150, 187, 0.5);
+        overflow: hidden;
     }
     &__content {
         padding: 16px;
